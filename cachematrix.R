@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
-
 ## Creates a list of functions that set and get the value of a matrix along with the inverse of that matrix.   Called before cacheSolve().
+## $set is passed the matrix, defines it for future function calls
+## $get returns the matrix
+## $setInverse is passed the inverse and defines it for future function calls
+## $getInverse returns the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
     invMatrix <- NULL
